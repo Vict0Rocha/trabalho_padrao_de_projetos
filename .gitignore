@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# IDE/Editor files
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Sensitive information (example)
+.env
+config.ini
+
+# Distribution and build artifacts
+build/
+dist/
+
+# Data Base
+todo_list.db
