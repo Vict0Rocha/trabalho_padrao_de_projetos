@@ -108,7 +108,7 @@ class JanelaPrincipal(QWidget):
         self.layout.addWidget(self.lista_widget)
 
         # --- Botão Remover ---
-        self.btn_remover = QPushButton("🗑️ Concluir Selecionada")
+        self.btn_remover = QPushButton("🗑️ Excluir Selecionada")
         self.btn_remover.setCursor(Qt.PointingHandCursor)
         # Sobrescreve o estilo apenas deste botão para cinza escuro
         self.btn_remover.setStyleSheet("""

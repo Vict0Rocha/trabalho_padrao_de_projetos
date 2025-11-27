@@ -1,4 +1,3 @@
-# Arquivo: facade.py
 from dao import TarefaDAO
 from factory import TarefaFactory
 from database import BancoDeDados

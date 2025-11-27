@@ -20,7 +20,7 @@ class BancoDeDados:
         self.cursor = self.conexao.cursor()
         self._criar_tabela()
         self._inicializado = True
-        print("[Log] Banco conectado (Singleton).")
+        print("[Log] - Banco conectado (Singleton).")
 
     def _criar_tabela(self):
         sql = """
@@ -36,4 +36,4 @@ class BancoDeDados:
         if self.conexao:
             self.conexao.close()
             BancoDeDados._instancia = None
-            print("[Log] Conexão fechada.")
+            print("[Log] - Conexão fechada.")

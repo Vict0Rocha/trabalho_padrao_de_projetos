@@ -1,4 +1,3 @@
-# Arquivo: factory.py
 from model import Tarefa
 
 class TarefaFactory:

@@ -3,5 +3,5 @@ class Tarefa:
         self.id = id
         self.descricao = descricao
 
-    def __repr__(self):
-        return f"Tarefa(id={self.id}, descricao='{self.descricao}')"
+    # def __repr__(self):
+    #     return f"Tarefa(id={self.id}, descricao='{self.descricao}')"

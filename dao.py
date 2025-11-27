@@ -1,4 +1,3 @@
-# Arquivo: dao.py
 from database import BancoDeDados
 from model import Tarefa
 
